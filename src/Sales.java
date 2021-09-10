@@ -3,17 +3,25 @@ public class Sales {
     /*Write a program, using dialog boxes, which prompts the user to enter a quantity, price, discount(as an integer) and sales tax(as an integer).
     The program should output the subtotal, tax total and total cost. Output should have proper currency format and proper rounding.
 
-    Hint: You can use \n inside a String literal to make a new line, helpful for the dialog box output.
+            */
+    public static void main(String[] args) {
 
-    Example:
+       int costOfCandy = 56;
+       int candyQuantity = 166;
 
-    What is the sale price?: 4.99
-    What is the discount?: 10
-    How many are you buying?: 5
-    What is the sales tax?: 7
+       int costOfChips = 20;
+       int chipQuantity = 34;
 
-    Subtotal: $22.46
-    Tax Total: $1.57
-    Total Cost: $24.03
-     */
+       double taxOfCandy = 4.99;
+       double taxOfChips = 56.99;
+
+       double totalCostOfCandy = costOfCandy + taxOfCandy;
+       double totalCostOfChips = costOfChips + taxOfChips;
+       System.out.println("Your total cost of candy is: $"); totalCostOfChips=  costOfCandy + taxOfCandy;
+
+       System.out.println("Your total cost of chips is: $ "); totalCostOfChips = costOfChips + taxOfChips;
+
+
+    }
+ }
 }
